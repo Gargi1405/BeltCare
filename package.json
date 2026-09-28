@@ -1,0 +1,27 @@
+{
+  "name": "beltcare",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"vite --host 0.0.0.0\"",
+    "server": "node server.js",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sql.js": "^1.14.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^9.2.4",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
