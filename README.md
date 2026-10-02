@@ -1,7 +1,189 @@
 # BeltCare
+<div align="center">
 
+# 🚀 BeltCare
+
+### AI-Powered Structural Health Monitoring & Predictive Maintenance System for Conveyor Belts
+
+**Smart India Hackathon 2026 • SIH26008 • Smart Automation • Hardware**
+
+<br>
+
+[![Smart India Hackathon](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-blue)]()
+[![Problem Statement](https://img.shields.io/badge/SIH-SIH26008-orange)]()
+[![Theme](https://img.shields.io/badge/Theme-Smart%20Automation-green)]()
+[![Category](https://img.shields.io/badge/Category-Hardware-red)]()
+[![AI](https://img.shields.io/badge/AI-Edge%20AI-purple)]()
+[![IoT](https://img.shields.io/badge/IoT-Multi--Sensor-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+
+## 🇮🇳 Smart India Hackathon 2026
+
+| | Details |
+|---|---|
+| **Problem Statement ID** | SIH26008 |
+| **Problem Statement** | Belt Joint Rupture and Conveyor Belt Damages in Iron Ore Mining Industry |
+| **Theme** | Smart Automation |
+| **Category** | Hardware |
+| **Team** | Teen Titans |
+| **Team ID** | 181546 |
+| **Solution Type** | Hardware + Edge AI + IoT + Software |
+
+
+</div>
+
+
+# 🎯 Executive Summary
+
+**BeltCare** is a hybrid **Hardware + AI + IoT + Software** platform designed for continuous monitoring and predictive maintenance of conveyor belts and belt joints used in mining and bulk-material handling.
+
+Traditional conveyor maintenance is largely manual, periodic, reactive, or schedule-based. This creates a gap between the time when degradation begins and the time when it becomes visible or causes a failure.
+
+BeltCare addresses this gap by combining:
+
+- 🌡️ Thermal sensing
+- 📳 Vibration monitoring
+- 🎙️ Acoustic sensing
+- ⚖️ Load and tension monitoring
+- 📍 Belt tracking
+- 📷 Computer vision
+- ⚡ Motor-health signals
+- 🤖 Edge AI
+- 🧠 Multi-sensor fusion
+- 📊 Health scoring
+- ⏳ Remaining Useful Life estimation
+- 🔎 Explainable alerts
+- 🔧 Maintenance recommendations
+
+### Core Workflow
+
+> **SENSE → FUSE → DETECT → PREDICT → EXPLAIN → ACT**
+
+The objective is to move conveyor maintenance from:
+
+**REACTIVE → CONDITION-BASED → PREDICTIVE**
+
+---
+
+# 🏭 The Problem
+
+Conveyor belts are the backbone of material transportation in iron ore mining operations, connecting:
+
+**Mining → Crushing → Screening → Stockyard → Dispatch**
+
+Conveyor belt joints and belt surfaces continuously experience:
+
+- High tension
+- Heavy loads
+- Repeated flexing
+- Vibration
+- Misalignment
+- Dust
+- Moisture
+- Temperature variation
+- Start-stop cycles
+- Mechanical wear
+
+These conditions can gradually lead to:
+
+- Splice degradation
+- Delamination
+- Longitudinal tears
+- Edge damage
+- Mistracking
+- Thermal abnormalities
+- Excessive vibration
+- Overload conditions
+- Belt rupture
+
+## Why Current Practices Are Not Enough
+
+| Existing Challenge | Consequence |
+|---|---|
+| Scheduled inspections | Damage can develop between inspections |
+| Manual inspection | Labour intensive and difficult to scale |
+| Reactive maintenance | Failure is detected after damage becomes critical |
+| Single-sensor monitoring | Higher possibility of false alarms |
+| Threshold-only systems | Limited context about degradation |
+| Poor localization | Engineers may need to inspect large belt sections |
+| Harsh environment | Dust, moisture and electrical noise affect sensing |
+| Legacy infrastructure | Data remains isolated in PLC/SCADA systems |
+
+### The Core Question
+
+Most conventional systems answer:
+
+> **"Has a failure occurred?"**
+
+BeltCare aims to answer:
+
+> **"Where is degradation developing, how severe is it, and when should maintenance intervene?"**
+
+---
+
+# 💡 Our Solution
+
+BeltCare introduces a **continuous, multi-sensor, edge-AI-driven conveyor health monitoring system**.
+
+The system collects multiple physical signals from the conveyor and combines them to create a more reliable picture of asset health.
+
+### BeltCare Pipeline
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                    MULTI-SENSOR INPUT                    │
+│                                                          │
+│ Temperature • Vibration • Acoustic • Load • Tracking    │
+│ Vision • Motor Health                                    │
+└──────────────────────────┬───────────────────────────────┘
+                           ↓
+┌──────────────────────────────────────────────────────────┐
+│                 DATA PREPROCESSING                       │
+│                                                          │
+│ Noise Removal • Filtering • Scaling • Synchronization   │
+└──────────────────────────┬───────────────────────────────┘
+                           ↓
+┌──────────────────────────────────────────────────────────┐
+│                  FEATURE EXTRACTION                      │
+│                                                          │
+│ FFT • RMS • Thermal Features • Acoustic Features        │
+│ Tracking Features • Vision Features • Health Index     │
+└──────────────────────────┬───────────────────────────────┘
+                           ↓
+┌──────────────────────────────────────────────────────────┐
+│                    AI / ML ANALYTICS                     │
+│                                                          │
+│ Sensor Fusion • Anomaly Detection • Classification      │
+│ Health Score • Degradation Modelling • RUL Prediction   │
+└──────────────────────────┬───────────────────────────────┘
+                           ↓
+┌──────────────────────────────────────────────────────────┐
+│                    EDGE AI LAYER                         │
+│                                                          │
+│ Raspberry Pi • Local Inference • Real-Time Processing    │
+│ Local Alerts • Offline Monitoring                        │
+└──────────────────────────┬───────────────────────────────┘
+                           ↓
+┌──────────────────────────────────────────────────────────┐
+│                 BELTCARE DASHBOARD                       │
+│                                                          │
+│ Health Score • Alerts • RUL • Fault Location             │
+│ Failure Type • Evidence • Maintenance Action             │
+└──────────────────────────────────────────────────────────┘
 BeltCare is a Vite and Express monitoring dashboard for conveyor-belt joint integrity.
 
+```
+
+# ⚙️ System Architecture
+
+TenderMind AI follows a secure, modular AI pipeline designed for government procurement and GeM bid compliance verification.
+
+<p align="center">
+  <img src="assets/Architecture.png" width="100%">
+</p>
+
+
+```
 ## Run locally
 
 ```bash
