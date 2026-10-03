@@ -96,7 +96,7 @@ These conditions can gradually lead to:
 - Overload conditions
 - Belt rupture
 
-## Why Current Practices Are Not Enough
+## 🤖 Why Current Practices Are Not Enough
 
 | Existing Challenge | Consequence |
 |---|---|
@@ -109,7 +109,7 @@ These conditions can gradually lead to:
 | Harsh environment | Dust, moisture and electrical noise affect sensing |
 | Legacy infrastructure | Data remains isolated in PLC/SCADA systems |
 
-### The Core Question
+### 🔎 The Core Question
 
 Most conventional systems answer:
 
@@ -133,28 +133,28 @@ The system collects multiple physical signals from the conveyor and combines the
 ┌──────────────────────────────────────────────────────────┐
 │                    MULTI-SENSOR INPUT                    │
 │                                                          │
-│ Temperature • Vibration • Acoustic • Load • Tracking    │
+│ Temperature • Vibration • Acoustic • Load • Tracking     │
 │ Vision • Motor Health                                    │
 └──────────────────────────┬───────────────────────────────┘
                            ↓
 ┌──────────────────────────────────────────────────────────┐
 │                 DATA PREPROCESSING                       │
 │                                                          │
-│ Noise Removal • Filtering • Scaling • Synchronization   │
+│ Noise Removal • Filtering • Scaling • Synchronization    │
 └──────────────────────────┬───────────────────────────────┘
                            ↓
 ┌──────────────────────────────────────────────────────────┐
 │                  FEATURE EXTRACTION                      │
 │                                                          │
-│ FFT • RMS • Thermal Features • Acoustic Features        │
-│ Tracking Features • Vision Features • Health Index     │
+│ FFT • RMS • Thermal Features • Acoustic Features         │
+│ Tracking Features • Vision Features • Health Index       │
 └──────────────────────────┬───────────────────────────────┘
                            ↓
 ┌──────────────────────────────────────────────────────────┐
 │                    AI / ML ANALYTICS                     │
 │                                                          │
-│ Sensor Fusion • Anomaly Detection • Classification      │
-│ Health Score • Degradation Modelling • RUL Prediction   │
+│ Sensor Fusion • Anomaly Detection • Classification       │
+│ Health Score • Degradation Modelling • RUL Prediction    │
 └──────────────────────────┬───────────────────────────────┘
                            ↓
 ┌──────────────────────────────────────────────────────────┐
@@ -170,18 +170,112 @@ The system collects multiple physical signals from the conveyor and combines the
 │ Health Score • Alerts • RUL • Fault Location             │
 │ Failure Type • Evidence • Maintenance Action             │
 └──────────────────────────────────────────────────────────┘
+
 BeltCare is a Vite and Express monitoring dashboard for conveyor-belt joint integrity.
 
 ```
 
 # ⚙️ System Architecture
 
-TenderMind AI follows a secure, modular AI pipeline designed for government procurement and GeM bid compliance verification.
+The complete BeltCare architecture consists of seven major layers:
+1. Conveyor Belt & Sensor Layer
+2. Edge Computing Layer
+3. Cloud / Central Platform
+4. User Interface & Dashboard
+5. SCADA / PLC Integration
+6. AI/ML Processing Pipeline
+7. End Users & Stakeholders
+
+BeltCare is built on a **hybrid Hardware + AI + Software architecture** that bridges physical conveyor assets with intelligent predictive maintenance.
+
+Real-time signals from **vibration, thermal, acoustic, tension, tracking, motor and visual sensors** are processed at the edge, fused through AI/ML models, and transformed into **health scores, anomaly alerts, RUL insights, and maintenance actions**.
+
+### 🔄 Core Intelligence Pipeline
+
+**SENSE → FUSE → DETECT → PREDICT → EXPLAIN → ACT**
 
 <p align="center">
   <img src="Assets/IMG-20261003-WA0050.jpg" width="100%">
 </p>
 
+# 🛠️ Technology Stack
+BeltCare combines industrial sensing, edge computing, AI/ML, real-time analytics, and modern web technologies into a single predictive-maintenance platform.
+### 🔩 Hardware & IoT
+- Raspberry Pi — Edge computing & local AI inference
+- ESP32 / ESP32-CAM — Sensor acquisition & visual inspection
+- MPU6050 — Vibration monitoring
+- MLX90614 — Contactless temperature monitoring
+- Piezoelectric Sensors — Acoustic/mechanical anomaly detection
+- Load Cell + HX711 — Belt tension/load monitoring
+- IR / Ultrasonic Sensors — Belt tracking & position monitoring
+- Motor Current Sensor — Motor health monitoring
+  
+### 🤖 AI / Machine Learning
+- Python — AI/ML development
+- TensorFlow — Deep learning & edge inference
+- Scikit-learn — Anomaly detection & machine learning
+- XGBoost — Predictive modelling
+- OpenCV — Computer vision
+- Multi-Sensor Fusion — Combined condition intelligence
+- Predictive Analytics — Health & degradation analysis
+- Explainable AI — Evidence-based alerts & recommendations
+  
+### ⚡ Edge & Data Processing
+- Raspberry Pi / Edge Gateway — Local processing
+- Signal Processing — Noise removal, filtering & FFT
+- Feature Engineering — Vibration, thermal, acoustic & visual features
+- Edge AI — Low-latency inference
+- MQTT — Lightweight sensor communication
+- WebSockets — Real-time data streaming
+  
+### 🌐 Frontend
+- React.js — Interactive dashboard
+- Next.js — Web application framework
+- CSS — Responsive UI
+- Plotly — Interactive sensor & health visualizations
+  
+### 🔙 Backend & APIs
+- FastAPI — High-performance Python APIs
+- Node.js / Express — Application/backend services
+- REST APIs — System integration
+- WebSockets — Real-time communication
+  
+### 🗄️ Database & Storage
+- PostgreSQL — Production database
+- SQLite — Lightweight prototype/local storage
+- Redis — Caching & fast-access data
+  
+### 🏭 Industrial Integration
+- OPC-UA — Industrial system integration
+- Modbus TCP / RTU — PLC and equipment communication
+- MQTT — IoT messaging
+- SCADA / PLC — Existing plant-system integration
+  
+### ☁️ Cloud & Deployment
+- Docker — Containerization
+- AWS — Cloud deployment
+- Microsoft Azure — Cloud infrastructure
+- Edge + Cloud Architecture — Local intelligence with centralized analytics
+
+### 🔐 Security
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- HTTPS / WSS
+- TLS-secured MQTT
+- Password Hashing
+- Audit Logging
+  
+### 📊 Monitoring & Development
+- Grafana — Monitoring & visualization
+- Prometheus — System metrics
+- Git — Version control
+- GitHub — Repository & collaboration
+- VS Code — Development environment
+- GitHub Copilot — AI-assisted development
+
+  <p align="center">
+  <img src="Assets/IMG-20261003-WA0050.jpg" width="100%">
+</p>
 
 ```
 ## Run locally
