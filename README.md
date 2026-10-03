@@ -354,7 +354,7 @@ Give this repository a ⭐ and support our mission of building transparent and i
 
 <div align="center">
 
-<img src="assets/TEAM LOGO.jpg" width="90"/>
+<img src="Assets/TEAM LOGO.jpg" width="90"/>
 
 
 
