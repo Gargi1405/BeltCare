@@ -179,7 +179,7 @@ BeltCare is a Vite and Express monitoring dashboard for conveyor-belt joint inte
 TenderMind AI follows a secure, modular AI pipeline designed for government procurement and GeM bid compliance verification.
 
 <p align="center">
-  <img src="/Assests/IMG-20261003-WA0050.jpg" width="100%">
+  <img src="Assets/IMG-20261003-WA0050.jpg" width="100%">
 </p>
 
 
