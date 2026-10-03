@@ -194,12 +194,16 @@ Real-time signals from **vibration, thermal, acoustic, tension, tracking, motor 
 
 **SENSE → FUSE → DETECT → PREDICT → EXPLAIN → ACT**
 
+
+
+
 <p align="center">
   <img src="Assets/IMG-20261003-WA0050.jpg" width="100%">
 </p>
 
 # 🛠️ Technology Stack
 BeltCare combines industrial sensing, edge computing, AI/ML, real-time analytics, and modern web technologies into a single predictive-maintenance platform.
+
 ### 🔩 Hardware & IoT
 - Raspberry Pi — Edge computing & local AI inference
 - ESP32 / ESP32-CAM — Sensor acquisition & visual inspection
@@ -277,9 +281,11 @@ BeltCare combines industrial sensing, edge computing, AI/ML, real-time analytics
   <img src="Assets/IMG-20261003-WA0047.jpg" width="100%">
 </p>
 
-```
+
+
 ## Run locally
 
+```
 ```bash
 npm install
 npm run dev
@@ -322,3 +328,43 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the Oxlint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+## 🎥 Live Prototype
+
+Experience TenderMind AI in action through our interactive prototype.
+
+🔗 **Prototype:** *(https://huggingface.co/spaces/gargi-14/TenderMind-AI)*
+
+---
+
+
+## 🎬 Project Pitch
+
+Watch our complete project presentation to understand the problem, solution, architecture, and vision behind TenderMind AI.
+
+▶️ **BELTCARE ONE SHOT:** *(https://www.youtube.com/watch?v=bylrXgfmGLU)*
+
+---
+
+# ⭐ If you like this project
+
+Give this repository a ⭐ and support our mission of building transparent and intelligent public procurement system.
+
+---
+
+<div align="center">
+
+<img src="assets/TEAM LOGO.jpg" width="90"/>
+
+
+
+Team Teen Titans
+
+Building innovative AI solutions for real-world public sector challenges.
+
+⭐ If you found this project interesting, consider giving this repository a Star!
+
+**Made with ❤️ by Team Teen Titans**
+
+</div>
+
