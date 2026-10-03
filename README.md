@@ -274,7 +274,7 @@ BeltCare combines industrial sensing, edge computing, AI/ML, real-time analytics
 - GitHub Copilot — AI-assisted development
 
   <p align="center">
-  <img src="Assets/IMG-20261003-WA0050.jpg" width="100%">
+  <img src="Assets/IMG-20261003-WA0047.jpg" width="100%">
 </p>
 
 ```
