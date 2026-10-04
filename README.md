@@ -619,11 +619,7 @@ Watch our complete project presentation to understand the problem, solution, arc
 
 ---
 
-# ⭐ If you like this project
 
-Give this repository a ⭐ and support our mission of building intelligent, reliable, and predictive conveyor belt 
-monitoring solutions for the mining industry.
----
 
 <div align="center">
 
