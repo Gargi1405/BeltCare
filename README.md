@@ -336,11 +336,14 @@ Maintenance Recommendation
 AI/ML Capabilities
 ```
 ### 🔄 End-to-End Workflow
-                    BELTCARE
+
+              ┌─────────────────┐
+              │    BELTCARE     │
+              └────────┬────────┘
                        │
                        ▼
               ┌─────────────────┐
-              │ Conveyor Sensors │
+              │ Conveyor Sensors│
               └────────┬────────┘
                        │
                        ▼
