@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">BeltCare</title>
+  <desc id="desc">Amber conveyor belt joint mark with a B</desc>
+  <rect width="128" height="128" rx="28" fill="#f59e0b"/>
+  <path d="M27 77h74M27 56h74" stroke="#111827" stroke-width="8" stroke-linecap="round" opacity=".84"/>
+  <path d="M43 28v72h25c14 0 23-7 23-18 0-8-5-14-13-16 6-3 9-8 9-15 0-14-10-23-26-23H43Zm17 14h7c7 0 11 3 11 9s-4 9-11 9h-7V42Zm0 31h9c7 0 11 3 11 9s-4 9-11 9h-9V73Z" fill="#111827"/>
+  <path d="M20 108h88" stroke="#d97706" stroke-width="8" stroke-linecap="round"/>
+</svg>
