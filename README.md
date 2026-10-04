@@ -35,7 +35,7 @@
 ## 🧩 CAD Model
 
 <p align="center">
-  <img src="Assets/cad-model.gif" alt="BeltCare CAD Model" width="900">
+  <img src="Assets/BeltCare_Final_Clean_4K.gif" alt="BeltCare CAD Model" width="900">
 </p>
 
 # 🎯 Executive Summary
