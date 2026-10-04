@@ -599,7 +599,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 🎥 Live App
 
-Experience TenderMind AI in action through our interactive prototype.
+Experience **BeltCare** in action through our interactive App prototype.
 
 🔗 **Prototype:** *(https://belt-care.vercel.app)*
 
@@ -608,7 +608,7 @@ Experience TenderMind AI in action through our interactive prototype.
 
 ## 🎬 Project Pitch
 
-Watch our complete project presentation to understand the problem, solution, architecture, and vision behind TenderMind AI.
+Watch our complete project presentation to understand the problem, solution, architecture, and vision behind **BeltCare**.
 
 ▶️ **BELTCARE ONE SHOT:** *(https://www.youtube.com/watch?v=bylrXgfmGLU)*
 
@@ -616,8 +616,8 @@ Watch our complete project presentation to understand the problem, solution, arc
 
 # ⭐ If you like this project
 
-Give this repository a ⭐ and support our mission of building transparent and intelligent public procurement system.
-
+Give this repository a ⭐ and support our mission of building intelligent, reliable, and predictive conveyor belt 
+monitoring solutions for the mining industry.
 ---
 
 <div align="center">
@@ -628,7 +628,7 @@ Give this repository a ⭐ and support our mission of building transparent and i
 
 Team Teen Titans
 
-Building innovative AI solutions for real-world public sector challenges.
+Building innovative AI solutions for real-world industrial challenges.
 
 ⭐ If you found this project interesting, consider giving this repository a Star!
 
