@@ -1,9 +1,13 @@
 
 <div align="center">
 
-# 🚀 BeltCare
 
-### AI-Powered Structural Health Monitoring & Predictive Maintenance System for Conveyor Belts
+<p align="center">
+  <img src="Assets/logo.svg" alt="BeltCare Logo " width="90">
+</p>
+
+
+### BELTCARE : AI-Powered Structural Health Monitoring & Predictive Maintenance System for Conveyor Belts
 
 **Smart India Hackathon 2026 • SIH26008 • Smart Automation • Hardware**
 
