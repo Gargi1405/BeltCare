@@ -530,25 +530,31 @@ multi-sensor hardware, edge AI, predictive analytics, and industrial integration
 ```
 
 ## 🤖 Run locally
-```
+
 
 ### Prerequisites
+```
 - Node.js
 - npm
 - Git
-
+```
 ### Installation
+```
 git clone <repository-url>
 cd BeltCare
 npm install
+```
 
 ### Run Development Server
+```
 npm run dev
-
+```
 ### Production Build
+```
 npm run build
-
+```
 ### Run Backend
+```
 npm run server
 ```
 
