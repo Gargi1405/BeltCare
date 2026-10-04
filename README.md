@@ -295,12 +295,254 @@ Show what the dashboard does:
 - RUL
 - Maintenance recommendations
 
-## Run locally
+
+ <p align="center">
+  <img src="Assets/WhatsApp Image 2026-10-04 at 18.38.55.jpeg" width="100%">
+</p>
+
+### Monitoring Status
+
+| Status | Meaning |
+|---|---|
+| 🟢 GREEN | Normal Operation |
+| 🟡 YELLOW | Inspection Required |
+| 🔴 RED | Critical / Immediate Action |
+
+---
+
+# 🤖 AI / ML Intelligence
+
+BeltCare converts raw sensor signals into actionable maintenance intelligence through a multi-stage AI/ML pipeline.
+
+```text
+Sensor Data
+     ↓
+Data Preprocessing
+     ↓
+Feature Extraction
+     ↓
+Multi-Sensor Fusion
+     ↓
+Anomaly Detection
+     ↓
+Failure Classification
+     ↓
+Health Index + RUL
+     ↓
+Explainable Alert
+     ↓
+Maintenance Recommendation
+
+AI/ML Capabilities
+```
+### 🔄 End-to-End Workflow
+                    BELTCARE
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Conveyor Sensors │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Edge Device   │
+              │ Raspberry Pi /  │
+              │      ESP32      │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  Preprocessing  │
+              │ Filtering / FFT │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Sensor Fusion   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    AI / ML      │
+              │ Anomaly + Fault │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  Health + RUL   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Explainable AI  │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    Dashboard    │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Maintenance     │
+              │ Action          │
+              └─────────────────┘
+### 🌱 Impact & Sustainability
+BeltCare supports safer, more efficient and more sustainable industrial operations through continuous condition monitoring.
+Expected Impact
+- Reduced unplanned shutdowns
+- Better maintenance planning
+- Reduced material spillage
+- Reduced emergency interventions
+- Improved equipment utilization
+- Safer maintenance operations
+- Better resource planning
+- Data-driven asset management
+
+
+### 💡 Key Innovation
+1. Healthy-vs-Live Comparison
+Continuously compares expected healthy behaviour with live conveyor data.
+2. Multimodal Sensor Intelligence
+Combines mechanical, thermal, acoustic, electrical and visual signals.
+3. Joint-Level Health Monitoring
+Enables individual belt-joint health tracking where position identification is available.
+4. Explainable Maintenance Intelligence
+Converts anomaly signals into evidence-based maintenance insights.
+5. Edge-First AI
+Enables low-latency local intelligence and resilience during connectivity interruptions.
+6. Industrial Integration
+Designed to work alongside existing SCADA and PLC infrastructure.
+
+### 🗺️ Development Roadmap
+```
+PHASE 1
+Prototype & Sensor Validation
+        ↓
+PHASE 2
+Healthy Baseline + Anomaly Detection
+        ↓
+PHASE 3
+Failure Classification + Health Index
+        ↓
+PHASE 4
+RUL Prediction + Explainable AI
+        ↓
+PHASE 5
+SCADA / PLC Integration
+        ↓
+PHASE 6
+Industrial Pilot
+        ↓
+PHASE 7
+Plant-Wide Deployment
+        ↓
+PHASE 8
+Multi-Mine Expansion
 
 ```
-```bash
+
+### 📂 Repository Structure
+```
+ BeltCare/
+│
+├── api/
+│
+├── assets/
+│   ├── system-architecture.png
+│   ├── hardware-iot.png
+│   ├── workflow.png
+│   ├── ai-ml-pipeline.png
+│   ├── dashboard.png
+│   ├── cad-model.gif
+│   ├── prototype.png
+│   └── technology-stack.png
+│
+├── data/
+│
+├── public/
+│
+├── src/
+│
+├── .gitignore
+├── .oxlintrc.json
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── server.js
+├── vercel.json
+└── vite.config.js
+
+```
+### 🎯 Market Positioning
+BeltCare is positioned as an intelligent predictive-maintenance layer for conveyor systems, rather than as a replacement for existing industrial control infrastructure.
+
+### Traditional Approach
+```
+Periodic Inspection
+        ↓
+Manual Observation
+        ↓
+Fault Identification
+        ↓
+Reactive Maintenance
+```
+### BeltCare Approach
+```
+Continuous Sensing
+        ↓
+Edge Processing
+        ↓
+Multi-Sensor Fusion
+        ↓
+AI-Based Detection
+        ↓
+Health + RUL Prediction
+        ↓
+Explainable Alert
+        ↓
+Planned Maintenance
+```
+### BeltCare Position
+| Capability | Conventional Monitoring | BeltCare |
+|---|---|---|
+| Monitoring | Periodic | Continuous |
+| Data | Isolated Signals | Multi-Sensor Fusion |
+| Detection | Threshold / Post-Damage | Baseline + AI Anomaly Detection |
+| Localization | Conveyor-Level | Joint-Level Capability |
+| Analytics | Limited | Health + Degradation + RUL |
+| Alerts | Basic Fault Alert | Evidence-Based Alert |
+| Maintenance | Reactive | Condition-Based / Predictive |
+| Integration | Existing Systems | SCADA / PLC Compatible |
+| Intelligence | Rule-Based | AI-Assisted |
+
+```
+BeltCare bridges the gap between physical conveyor monitoring and intelligent predictive maintenance by combining
+multi-sensor hardware, edge AI, predictive analytics, and industrial integration in a single platform.
+```
+
+## 🤖 Run locally
+```
+
+### Prerequisites
+- Node.js
+- npm
+- Git
+
+### Installation
+git clone <repository-url>
+cd BeltCare
 npm install
+
+### Run Development Server
 npm run dev
+
+### Production Build
+npm run build
+
+### Run Backend
+npm run server
 ```
 
 Open `http://localhost:5173`.
